@@ -1,0 +1,23 @@
+
+.title {
+    margin-top: 20%;
+}
+h1 {
+    text-align: center;
+}
+
+#fire {
+    color: red;
+}
+
+#water {
+    color: #00C0FF;
+}
+
+.start {
+    text-align: center;
+}
+
+.start :hover {
+    cursor: pointer;
+}

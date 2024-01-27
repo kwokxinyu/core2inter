@@ -1,0 +1,18 @@
+h1 {
+    text-align: center;
+    margin-top: 10%;
+    color: red;
+}
+
+p {
+    font-size: 24px;
+}
+
+.text {
+    color: red;
+    margin-top: 200px;
+    margin-left: 30%;
+    margin-right: 30%;
+    font-size: 30px;
+    text-align: center;
+}

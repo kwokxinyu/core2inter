@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+    margin-top: 10%;
+}
+
+p {
+    font-size: 24px;
+}
+
+.title {
+    color: #00C0FF;
+}
+
+.gif {
+    display: flex;
+   justify-content: center;
+   
+    margin-top: 10%;
+}
+
+.text {
+    margin-top: 50%;
+    color: x;
+}
+
+.button {
+    text-align: center;
+}
