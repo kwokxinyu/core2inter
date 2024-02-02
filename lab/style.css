@@ -1,0 +1,46 @@
+.kpop {
+    color: blueviolet;
+}
+
+.c-pop {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.rnb {
+    color: red;
+    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+.jpop {
+    color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+    padding: 20px 50px;
+    border-radius: 30px;
+    background-color:  rgb(41,34,34);
+    color:  #F5F5DC;
+    font-family: toony_line_personalregular;
+    font-size:  60px;
+    font-size: 20px;
+    text-align:  center;
+    text-align:  center;
+    transition:  all 100ms;
+  }
+  
+  .button:hover {
+    background-color: #DEB887;
+    cursor:  pointer;
+  }
+  
+  .buttonOn {
+    background-color:  black;
+    color:  white;
+  }
+  
+  .light {
+    background-color: rgb(41,34,34);
+  }
