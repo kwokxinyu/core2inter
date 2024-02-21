@@ -1,0 +1,754 @@
+
+@import url("https://use.typekit.net/hmt4zhf.css");
+
+body { 
+    position: relative;
+    background-color: #4C525A;
+    background-image: url(./imgs/vector.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 416.625vw;
+    
+}
+
+
+a {
+    text-decoration: none;
+    color: #CC8F65;
+}
+
+a:hover {
+    color: azure;
+}
+
+.start {
+    width: 100%;
+    /* min-height: 416.625vw; */
+    
+}
+
+#on {
+   position: absolute;
+   bottom: 8.5%;
+   left: 2%;
+   width: 15%;
+    height: auto;
+    animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+
+}
+
+#begin { 
+    position: absolute;
+    bottom: 2.5%;
+    left: 12%;
+     width: 25%;
+     height: auto;
+     cursor: pointer;
+     
+}
+
+
+#nings { 
+    position: absolute;
+     width: 25%;
+     height: auto;
+     bottom: 2.5%;
+     left: 40%;
+     animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+}
+
+#first {
+    position: absolute;
+    bottom: 20%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.firsttext {
+    position: absolute;
+    bottom: 14.5%;
+    left: 30%;
+    right: 22%;
+    font-size: 23px;
+    transform: skewY(-30deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+#second {
+    position: absolute;
+    bottom: 28%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.secondtext {
+    position: absolute;
+    bottom: 18%;
+    left: 19%;
+    right: 56%;
+    font-size: 23px;
+    transform: skewY(-29.5deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.secondtext-1 {
+    position: absolute; 
+    bottom: 23%;
+    left: 10%; 
+    right: 66%;
+    font-size: 14px;
+    transform: rotate(-45.781deg);
+    transform: skew(64deg, -29deg); 
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 500;
+    font-style: normal;
+}
+
+#third {
+    position: absolute;
+    bottom: 32%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.thirdtext {
+    position: absolute;
+    bottom: 26.7%;
+    left: 33%;
+    right: 54%;
+    font-size: 23px;
+    transform: skewY(-28.5deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.kawaii {
+    position: absolute;
+    bottom: 24.7%;
+    left: 80%;
+    font-size: 50px;
+    transform: skew(64deg, -28.5deg);
+    color: azure;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1vw;
+    animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+}
+
+#fourth {
+    position: absolute;
+    bottom: 38%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.fourthtext {
+    position: absolute;
+    bottom: 31.2%;
+    left: 49%;
+    right: 36.5%;
+    font-size: 23px;
+    transform: skewY(-28.5deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.fifthtext {
+    position: absolute;
+    bottom: 31.2%;
+    left: 64.2%;
+    right: 23.5%;
+    font-size: 23px;
+    transform: skewY(26deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fifth {
+    position: absolute;
+    bottom: 48%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+.sixthtext {
+    position: absolute;
+    bottom: 39%;
+    left: 66%;
+    right: 9%;
+    font-size: 16px;
+    transform: skew(65deg, -30deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kawaii-1 {
+    position: absolute;
+    bottom: 39%;
+    left: 10%;
+    font-size: 70px;
+    transform: skewY(-30deg);
+    color: #CC8F65;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+
+}
+.seventhtext {
+    position: absolute;
+    bottom: 45%;
+    left: 35%;
+    right: 19%;
+    font-size: 22px;
+    transform: skewY(-30deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+#sixth {
+    position: absolute;
+    bottom: 52%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.eighthtext {
+    position: absolute;
+    bottom: 47.6%;
+    left: 1%;
+    right: 79%;
+    font-size: 22px;
+    transform: skewY(25deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#seventh {
+    position: absolute;
+    bottom: 58%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.ninthtext {
+    position: absolute;
+    bottom: 58.5%;
+    left: 64%;
+    right: 9%;
+    font-size: 22px;
+    transform: skewY(25deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.semicolon {
+    position: absolute;
+    bottom: 54.5%;
+    left: 28%;
+    right: 9%;
+    font-size: 400px;
+    transform: skewY(-30deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+}
+
+#eighth {
+    position: absolute;
+    bottom: 66%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.tentext {
+    position: absolute;
+    bottom: 64%;
+    left: 77%;
+    right: 7%;
+    font-size: 16px;
+    transform: skew(66deg, -30deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.kawaii-2 {
+    position: absolute;
+    bottom: 71.6%;
+    left: 84%;
+    font-size: 35px;
+    transform: skewY(27deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: bold;
+    animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+}
+
+.eleventhtext {
+    position: absolute;
+    bottom: 59%;
+    left: 15%;
+    right: 70%;
+    font-size: 16px;
+    transform: skew(66deg, -30deg);
+    color: #826760;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#ninth {
+    position: absolute;
+    bottom: 68%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.twelthtext {
+    position: absolute;
+    bottom: 62%;
+    left: 18.5%;
+    right: 71%;
+    font-size: 18px;
+    transform: skewY(-30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.thirteenthtext {
+    position: absolute;
+    bottom: 63.6%;
+    left: 43%;
+    right: 45%;
+    font-size: 20px;
+    transform: skewY(25deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.fourteenthtext {
+    position: absolute;
+    bottom: 64.2%;
+    left: 13%;
+    right: 76%;
+    font-size: 11px;
+    transform: skew(66deg, -30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#tenth {
+    position: absolute;
+    bottom: 72%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.fifteenthtext {
+    position: absolute;
+    bottom: 66%;
+    left: 18.5%;
+    right: 71%;
+    font-size: 21px;
+    transform: skewY(25deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kawaii-3 {
+    position: absolute;
+    bottom: 67.9%;
+    left: 9%;
+    font-size: 35px;
+    transform: skewY(-30deg);
+    color: azure;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: bold;
+    animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+
+}
+
+.sixteenthtext {
+    position: absolute;
+    bottom: 64%;
+    left: 30.5%;
+    right: 60%;
+    font-size: 18px;
+    transform: skewY(-30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#eleventh {
+    position: absolute;
+    bottom: 77%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.seventeenthtext {
+    position: absolute;
+    bottom: 71.5%;
+    left: 24%;
+    right: 65%;
+    font-size: 12px;
+    transform: skew(66deg, -30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.eighteenthtext {
+    position: absolute;
+    bottom: 74.6%;
+    left: 38%;
+    right: 40.5%;
+    font-size: 11px;
+    transform: skew(66deg, -30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nineteenthtext {
+    position: absolute;
+    bottom: 76.8%;
+    left: 55.5%;
+    right: 34.5%;
+    font-size: 18px;
+    transform: skewY(25deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#twelth {
+    position: absolute;
+    bottom: 80%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+
+.twentiethtext {
+    position: absolute;
+    bottom: 78%;
+    left: 61.5%;
+    right: 26%;
+    font-size: 11px;
+    transform: skew(66deg, -30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.twentiethfirsttext {
+    position: absolute;
+    bottom: 75.5%;
+    left: 66.5%;
+    right: 22%;
+    font-size: 20px;
+    transform: skewY(-30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#thirteenth {
+    position: absolute;
+    bottom: 84%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.twentiethsecondtext {
+    position: absolute;
+    bottom: 78.2%;
+    left: 43%;
+    right: 42%;
+    font-size: 18px;
+    transform: skewY(-30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.twentieththirdtext {
+    position: absolute;
+    bottom: 74.5%;
+    left: 20%;
+    right: 60%;
+    font-size: 20px;
+    transform: skewY(-30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.twentiethfourthtext {
+    position: absolute;
+    bottom: 72.8%;
+    left: 4.5%;
+    right: 83%;
+    font-size: 18px;
+    transform: skewY(25deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.kawaii-4 {
+    position: absolute;
+    bottom: 84.9%;
+    left: 28.5%;
+    font-size: 30px;
+    transform: skewY(27deg);
+    color: azure;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: bold;
+    animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+}
+
+.twentiethfifthtext {
+    position: absolute;
+    bottom: 81.4%;
+    left: 13%;
+    right: 66%;
+    font-size: 11px;
+    transform: skew(65deg, -30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fourteenth {
+    position: absolute;
+    bottom: 91%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.twentiethsixthtext {
+    position: absolute;
+    bottom: 83.4%;
+    left: 51%;
+    right: 23%;
+    font-size: 20px;
+    transform: skewY(29deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.twentiethseventhtext {
+    position: absolute;
+    bottom: 86.2%;
+    left: 33%;
+    right: 67%;
+    font-size: 11px;
+    transform: skew(65deg, -30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.twentietheighttext {
+    position: absolute;
+    bottom: 87.8%;
+    left: 39%;
+    right: 23%;
+    font-size: 16px;
+    transform: skewY(-30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.twentiethninetext {
+    position: absolute;
+    bottom: 84.9%;
+    left: 43%;
+    right: 67%;
+    font-size: 15px;
+    transform: skew(65deg, -30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.thirtiethtext {
+    position: absolute;
+    bottom: 85.8%;
+    left: 42.5%;
+    right: 23%;
+    font-size: 15px;
+    transform: skewY(-30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#fifteenth {
+    position: absolute;
+    bottom: 94%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.thirtyfirsttext {
+    position: absolute;
+    bottom: 89.8%;
+    left: 13.5%;
+    right: 65%;
+    font-size: 20px;
+    transform: skewY(-30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.thirtysecondtext {
+    position: absolute;
+    bottom: 89.9%;
+    left: 62%;
+    right: 17%;
+    font-size: 13px;
+    transform: skew(60deg, -30deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.thirtythirdtext {
+    position: absolute;
+    top: 3%;
+    left: 37%;
+    right: 50%;
+    font-size: 18px;
+    transform: skewY(-27deg);
+    color: #826760;;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sixteenth {
+    position: absolute;
+    bottom: 97%;
+    width: 100%;
+    height: 50px;
+    scroll-behavior: smooth;
+}
+
+.kawaii-5 {
+    position: absolute;
+    top: 7%;
+    left: 9%;
+    font-size: 50px;
+    transform: skew(64deg, -30deg);
+    color: azure;
+    font-family: "prestige-elite-std", monospace;
+    font-weight: 400;
+    font-style: bold;
+    animation: blink-animation 0.5s steps(5,start) infinite;
+    -webkit-animation: blink-animation 0.5s steps(7,start) infinite
+
+}
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: #4C525A;
+    }
+}
+
+@keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
