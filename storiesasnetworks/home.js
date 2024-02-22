@@ -33,6 +33,19 @@ function changeImage(x, image)
     }
 }
 
+function changeTopImage(x, image)
+{
+    if(x==1)
+    {
+        image.src = 'imgs/top/begin.png';
+    }
+
+    if(x==2)
+    {
+        image.src = 'imgs/top/begin-clicked.png';
+    }
+}
+
 const div = document.querySelector(".firsttext");
 const text = document.querySelector(".firsttext").innerHTML;
 
@@ -385,6 +398,17 @@ document.querySelectorAll('a[href^="#fifteenth"]').forEach(anchor => {
 });
 
 document.querySelectorAll('a[href^="#sixteenth"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+
+    });
+});
+
+document.querySelectorAll('a[href^="#start"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
