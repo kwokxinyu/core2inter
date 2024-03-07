@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>HTML Reverse Engineering</title>
+    <style>
+
+      body {
+        background-color: rgb(212, 226, 212);
+      }
+
+      h2 {
+        font-family: 'Courier New', Courier, monospace;
+        color: green;
+      }
+
+      a {
+        color: green;
+      }
+      section { margin-top: 120px; }
+      #table-of-contents { margin: 80px 0; }
+      .grid-col-2 {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 40px;
+      }
+
+      img {
+        width: 100%;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <header>
+      Core 2 Interaction: Lab – &nbsp;<em>HTML Reverse Engineering</em>
+    </header>
+
+    <section id="table-of-contents">
+      <ul>
+        <li><a href="#screenshot">Screenshot ↓</a></li>
+        <li><a href="#analysis">Analysis ↓</a></li>
+        <li><a href="#questions">Questions ↓</a></li>
+      </ul>
+    </section>
+
+    <section id="screenshot">
+      <h2>SCREENSHOT</h2>
+      <img src="screenshot.png" alt="Screenshot of the Website">  
+      </section>
+
+    <section id="analysis">
+      <h2>ANALYSIS</h2>
+      <div class="grid-col-2">
+        <div>
+          <pre id="analysis--simplified-html">
+body <br>
+  div #flash /div <br>
+  nav .nav <br>
+      a href="/"
+      i .fa-regular fa-arrow-left margin-right/i
+      /a <br>
+  /nav
+
+  header .header
+    a href="/"
+      img 
+    /a
+  /header <br>
+
+  div .paper #paper 
+    div .content 
+      p /p
+      p /p
+      form #form
+        input /input
+        input disabled #printerURL  /input
+        input #printIdInput /input
+        div #controls /div
+        div .artboard 
+            canvas #imageView /canvas
+        /div
+        div #mouseCircle /div
+        div .from /div
+        div .link /div 
+        button #sendPicture .button /button
+      /form
+      section #picture
+        style /style
+        header
+          div .from /div
+          div .hour /div
+        /header
+        img #image
+      /section
+    /div
+  /div 
+
+  footer .footer 
+    p /p
+  /footer
+
+/body 
+
+          </pre>
+        </div>
+        <div id="analysis--text">
+          <ul>body: the body creates a holder for all the text and image elements in the website</ul>
+          <ul>nav: the nav class provides the link on the top left corner of the screen; allowing users to navigate back to the "print gallery"</ul>
+          <ul>header: the header class is the holder for the element placed at the top. In this case, its the illustrated printer.</ul>
+          <ul>div: the paper class and id is the section with text and the mini drawing board.</ul>
+          <ul>form: is the placeholder for the drawing canvas, including the buttons and the textholders.</ul>
+          <ul>footer: is the placeholder for the text at the bottom of the webpage.</ul>
+
+          <!-- TODO: <p>Write a response!</p> -->
+        </div>
+      </div>
+    </section>
+
+    <section id="analysis--questions">
+      <h2>QUESTIONS</h2>
+      <ul>
+        <li>
+          What does the <em>input</em> function do and when should we use it on a webpage?
+        </li>
+        <li>why should <em>form</em> be used instead of a div when working with canvases?</li>
+
+      </ul>
+    </section>
+
+  </body>
+	
+</html>

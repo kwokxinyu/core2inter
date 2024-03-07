@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(210, 149, 57);
+    cursor: none;
+
+}
+
+#cursor {
+    cursor: none;
+    position: fixed; 
+    border-color: black;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    transition: ease-in-out;
+
+}
