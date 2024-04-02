@@ -23,7 +23,7 @@
       "posterImage": "unpressed/Asset2.png"
     },
     {
-      "name": "Greek Yoghurt",
+      "name": "Greek-Yoghurt",
       "typeofmeal": "Breakfast",
       "sweet_or_savory": "Sweet",
       "colour_palette": ["White"],
@@ -34,7 +34,7 @@
       "posterImage": "unpressed/Asset3.png"
     },
     {
-      "name": "Frozen Berries",
+      "name": "Frozen-Berries",
       "typeofmeal": "Breakfast",
       "sweet_or_savory": "Sweet",
       "colour_palette": ["Blue", "Pink", "Purple"],
@@ -45,7 +45,7 @@
       "posterImage": "unpressed/Asset4.png"
     },
     {
-      "name": "Chocolate Granola",
+      "name": "Chocolate-Granola",
       "typeofmeal": "Breakfast",
       "sweet_or_savory": "Sweet",
       "colour_palette": ["Brown"],
@@ -56,7 +56,7 @@
       "posterImage": "unpressed/Asset6.png"
     },
     {
-      "name": "Pumpernickel Bagel",
+      "name": "Pumpernickel-Bagel",
       "typeofmeal": "Breakfast",
       "sweet_or_savory": "Savory",
       "colour_palette": ["Brown"],
@@ -78,7 +78,7 @@
       "posterImage": "unpressed/Asset9.png"
     },
     {
-      "name": "Raspberry Jam",
+      "name": "Raspberry-Jam",
       "typeofmeal": "Breakfast",
       "sweet_or_savory": "Sweet",
       "colour_palette": ["Pink", "Red"],

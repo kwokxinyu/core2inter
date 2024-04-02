@@ -53,9 +53,9 @@ const renderItems = (collection) => {
 			// notice the tick marks `` wrapped around everything, with ${variable} used for dynamic content = written in HTML 
 			const itemDetails =
 				`
-					<li  class="list-item" data-typeofmeal="${item.typeofmeal}">
+					<li  id="${item.name}" class="list-item" data-typeofmeal="${item.typeofmeal}">
 						<img src="${item.posterImage}" class="list-item-image">
-						<div class="list-item-content">
+						<div id="list-item-content-${item.name}" class="list-item-content">
                             <p class="name">${item.name}</p>
 							<p class="sweetorsavory">Sweet or Savory: <span>${item.sweet_or_savory}</span></p>
 							<p class="color">Color: ${item.colour_palette}</p>
