@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xinyu's food table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+<div class="footer">
+    <p>designed by Xinyu Kwok</p>
+</div>
+
+<div class="sidetext">
+    <p>This is an archive of my table. I mostly spend my time eating on this table, so if you’re hungry feel free to scavenge through.</p>
+</div>
+
+<div class="thetable">
+    <div class="smalltitle">
+        <p>daily</p>
+    </div>
+    <div class="title">
+        <h1>thetable</h1>
+    </div>
+</div>
+
+<hr class="line">
+<hr class="line">
+
+<div class="window">
+    <div id="rect1"></div>
+    <div id="rect2"></div>
+</div>
+
+<!-- <img class="shadow" src="img/shadow.png" alt="shadow"> -->
+<img class="table" src="img/table.png" alt="Table">
+<img id="flowerpot" src="img/flowerpot.png" alt="flowerpot">
+   
+
+<div class="inside">
+    <p>what's the time?</p>
+</div>
+
+<div class="hero">
+    <div class="overlay"></div>
+  </div>
+
+<div class="buttons">
+    <a href="https://kwokxinyu.github.io/core2inter/elasticcollections/index.html" class="filteritem" data-typeofmeal="Breakfast"><img id="breakfast" src="buttons/Morning.png" alt="Breakfast Button" onmouseover="changeFirstImage(1,this)" onmouseout="changeFirstImage(2,this)"></a>
+    <a href="https://kwokxinyu.github.io/core2inter/elasticcollections/Lunch/index.html" class="filteritem" data-typeofmeal="Lunch"><img id="lunch" src="buttons/Day.png" alt="Lunch Button" onmouseover="changeSecondImage(2,this)" onmouseout="changeSecondImage(1,this)"></a>
+    <a href="https://kwokxinyu.github.io/core2inter/elasticcollections/Dinner/index.html" class="filteritem" data-typeofmeal="Dinner"><img id="dinner" src="buttons/Night.png" alt="Night Button" onmouseover="changeThirdImage(2,this)" onmouseout="changeThirdImage(1,this)"></a>
+</div>
+
+<ul id="collection"></ul>
+
+      <script defer src="collection.js"></script>
+</body>
+</html>
