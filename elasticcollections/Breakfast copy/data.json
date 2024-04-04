@@ -1,0 +1,270 @@
+
+  [
+    {
+      "name": "Eggs",
+      "typeofmeal": "Breakfast",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Yellow", "White"],
+      "texture": ["Mushy", "Jelly-like"],
+      "personal_experience": "Boiled for exactly 6.5 minutes",
+      "rating": "4/5",
+      "best_pairings": ["Cottage cheese"],
+      "posterImage": "unpressed/Asset1.png"
+    },
+    {
+      "name": "Sourdough",
+      "typeofmeal": "Breakfast",
+      "sweet_or_savory": "Depends",
+      "colour_palette": ["Neutral"],
+      "texture": ["Crunchy", "Soft"],
+      "personal_experience": "Loves the sour taste",
+      "rating": "5/5",
+      "best_pairings": ["Raspberry Jam"],
+      "posterImage": "unpressed/Asset2.png"
+    },
+    {
+      "name": "Greek-Yoghurt",
+      "typeofmeal": "Breakfast",
+      "sweet_or_savory": "Sweet",
+      "colour_palette": ["White"],
+      "texture": ["Creamy"],
+      "personal_experience": "Great source of protein, creamy like ice cream",
+      "rating": "5/5",
+      "best_pairings": ["Chocolate Granola"],
+      "posterImage": "unpressed/Asset3.png"
+    },
+    {
+      "name": "Frozen-Berries",
+      "typeofmeal": "Breakfast",
+      "sweet_or_savory": "Sweet",
+      "colour_palette": ["Blue", "Pink", "Purple"],
+      "texture": ["Soft", "Icy"],
+      "personal_experience": "Reminiscent of ice pops, long shelf life",
+      "rating": "4/5",
+      "best_pairings": ["Greek yoghurt"],
+      "posterImage": "unpressed/Asset4.png"
+    },
+    {
+      "name": "Chocolate-Granola",
+      "typeofmeal": "Breakfast",
+      "sweet_or_savory": "Sweet",
+      "colour_palette": ["Brown"],
+      "texture": ["Chewy", "Clustered"],
+      "personal_experience": "Fulfills sweet desires with chocolate bits",
+      "rating": "5/5",
+      "best_pairings": ["Greek Yoghurt"],
+      "posterImage": "unpressed/Asset6.png"
+    },
+    {
+      "name": "Pumpernickel-Bagel",
+      "typeofmeal": "Breakfast",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Brown"],
+      "texture": ["Chewy", "Crunchy"],
+      "personal_experience": "Toasted, pairs well with cheese and eggs",
+      "rating": "4/5",
+      "best_pairings": ["Eggs"],
+      "posterImage": "unpressed/Asset7.png"
+    },
+    {
+      "name": "Coffee",
+      "typeofmeal": "Breakfast",
+      "sweet_or_savory": "None",
+      "colour_palette": ["Brown"],
+      "texture": ["Moist", "Hot"],
+      "personal_experience": "Keeps awake, prefers cold brew or Americano",
+      "rating": "3/5",
+      "best_pairings": ["Pumpernickel Bagel"],
+      "posterImage": "unpressed/Asset9.png"
+    },
+    {
+      "name": "Raspberry-Jam",
+      "typeofmeal": "Breakfast",
+      "sweet_or_savory": "Sweet",
+      "colour_palette": ["Pink", "Red"],
+      "texture": ["Viscous"],
+      "personal_experience": "Enjoyable sour and sweet combo",
+      "rating": "3.5/5",
+      "best_pairings": ["Sourdough"],
+      "posterImage": "unpressed/Asset10.png"
+    },
+    {
+      "name": "Salmon Fillet",
+      "typeofmeal": "Lunch",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Salmon Pink"],
+      "texture": ["Moist", "Flaky"],
+      "personal_experience": "Enjoyable fishy taste",
+      "rating": "3.5/5",
+      "best_pairings": ["Broccoli"],
+      "posterImage": "unpressed/Asset11.png"
+    },
+    {
+      "name": "Broccoli",
+      "typeofmeal": "Lunch",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Leafy Green"],
+      "texture": ["Crunchy", "Moist"],
+      "personal_experience": "Likes crunchy broccoli with sesame oil",
+      "rating": "4/5",
+      "best_pairings": ["Chicken"],
+      "posterImage": "unpressed/Asset12.png"
+    },
+    {
+      "name": "Chicken",
+      "typeofmeal": "Lunch",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Peach", "Nude"],
+      "texture": ["Juicy", "Chewy"],
+      "personal_experience": "Versatile, prefers not to slice along meat lines",
+      "rating": "3/5",
+      "best_pairings": ["Lettuce"],
+      "posterImage": "unpressed/Asset5.png"
+    },
+    {
+      "name": "Quesadilla",
+      "typeofmeal": "Lunch",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Neutral", "Earth"],
+      "texture": ["Juicy", "Chewy", "Moist"],
+      "personal_experience": "Filling, loves peppers in them",
+      "rating": "5/5",
+      "best_pairings": ["Pickled radish"],
+      "posterImage": "unpressed/Asset13.png"
+    },
+    {
+      "name": "Lettuce",
+      "typeofmeal": "Lunch",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Light Green"],
+      "texture": ["Crunchy", "Refreshful"],
+      "personal_experience": "Feels like a rabbit eating it",
+      "rating": "3/5",
+      "best_pairings": ["Shrimp"],
+      "posterImage": "unpressed/Asset24.png"
+    },
+    {
+      "name": "Swai Fillet",
+      "typeofmeal": "Lunch",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Light Pink"],
+      "texture": ["Moist", "Soft"],
+      "personal_experience": "Marinated with ginger and leeks to reduce fishy taste",
+      "rating": "4/5",
+      "best_pairings": ["Udon"],
+      "posterImage": "unpressed/Asset15.png"
+    },
+    {
+      "name": "Udon",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Cream"],
+      "texture": ["Chewy"],
+      "personal_experience": "Enjoys both hot and cold variations",
+      "rating": "3/5",
+      "best_pairings": ["Salmon Fillet"],
+      "posterImage": "unpressed/Asset16.png"
+    },
+    {
+      "name": "Shrimp",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Light Pink"],
+      "texture": ["Bouncy", "Crunchy"],
+      "personal_experience": "Likes adding it into wraps or soups",
+      "rating": "4/5",
+      "best_pairings": ["Eggs"],
+      "posterImage": "unpressed/Asset8.png"
+    },
+    {
+      "name": "Pickled radish",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Bright Yellow", "White-Yellow"],
+      "texture": ["Crunchy"],
+      "personal_experience": "Enhances every bite, crunchy",
+      "rating": "5/5",
+      "best_pairings": ["Tuna wrap"],
+      "posterImage": "unpressed/Asset18.png"
+    },
+    {
+      "name": "Tuna wrap",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Pink", "Green"],
+      "texture": ["Creamy", "Flaky"],
+      "personal_experience": "Go-to Grab and go meal! ",
+      "rating": "4/5",
+      "best_pairings": ["Lettuce"],
+      "posterImage": "unpressed/Asset19.png"
+    },
+    {
+      "name": "Bean Sprouts",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Yellow", "Cream"],
+      "texture": ["Crunchy", "Juicy"],
+      "personal_experience": "Current obsession right now. So crunchy and juicy. Brings texture to my plate.",
+      "rating": "5/5",
+      "best_pairings": ["Swai Fillet"],
+      "posterImage": "unpressed/Asset23.png"
+    },
+    {
+      "name": "Tofu",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Cream", "Nude"],
+      "texture": ["Creamy", "Soft"],
+      "personal_experience": "Can be soft and firm. I love the flavorful taste of soybean!",
+      "rating": "3/5",
+      "best_pairings": ["Bean Sprouts"],
+      "posterImage": "unpressed/Asset20.png"
+    },
+    {
+      "name": "Cucumbers",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Depends",
+      "colour_palette": ["Dark green", "Light green"],
+      "texture": ["Crunchy", "Juicy"],
+      "personal_experience": "I should try to stir-fry some cucumber some time.",
+      "rating": "3/5",
+      "best_pairings": ["Tuna Wrap"],
+      "posterImage": "unpressed/Asset25.png"
+    },
+    {
+      "name": "Bak-choy",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Savory",
+      "colour_palette": ["Dark green", "Leafy green"],
+      "texture": "Crunchy",
+      "personal_experience": "Can't decide whether I like it stir-fried or cooked in soup.",
+      "rating": "3/5",
+      "best_pairings": "Chicken",
+      "posterImage": "unpressed/Asset22.png"
+    },
+    {
+      "name": "Tomato Soup",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Sweet and Savory",
+      "colour_palette": "Red",
+      "texture": "Moist",
+      "personal_experience": "Hotpot style...Feeds some sweetness to any vegetable. ",
+      "rating": "4/5",
+      "best_pairings": "Tofu",
+      "posterImage": "unpressed/Asset17.png"
+    },
+    {
+      "name": "Beef",
+      "typeofmeal": "Dinner",
+      "sweet_or_savory": "Savory",
+      "colour_palette": "Brown",
+      "texture": "Tender",
+      "personal_experience": "So juicy when stir-fried with onions!",
+      "rating": "3/5",
+      "best_pairings": "Bak-choy",
+      "posterImage": "unpressed/Asset21.png"
+    }
+
+
+
+  ]

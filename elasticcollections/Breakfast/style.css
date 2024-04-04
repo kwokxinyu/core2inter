@@ -71,6 +71,12 @@ body {
    
   }
 
+  @keyframes wiggle {
+    0% { transform: translate(2px, 0); }
+    50% { transform: translate(-2px, 0); }
+    100% { transform: translate(2px, 0); }
+  }
+
 
 hr {
     margin-bottom: 2%;
@@ -142,6 +148,7 @@ hr {
     left: 17%;
     margin-top: 3.4%;
     border: 3px solid #e45338; 
+    opacity: 0.5;
     width: 70vw;
     height: 47vw;
 }
@@ -227,6 +234,7 @@ button {
 /* COLLECTION POSITIONS */
 
 #Eggs {
+  
   position: relative;
   top: 50%;
   left: 10%;
@@ -324,9 +332,6 @@ button {
   left: -10%;
 }
 
-.list-item.is-active {
-  opacity: 1;
-}
 
 /* .list-item-content  {
 	opacity: 1;
