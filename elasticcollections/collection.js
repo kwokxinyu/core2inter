@@ -54,7 +54,6 @@ const renderItems = (collection) => {
 			const itemDetails =
 				`
 					<li  class="list-item" data-typeofmeal="${item.typeofmeal}">
-						<img src="${item.posterImage}" class="list-item-image">
 						<div class="list-item-content">
                             <p class="name">${item.name}</p>
 							<p class="sweetorsavory">Sweet or Savory: <span>${item.sweet_or_savory}</span></p>
@@ -65,6 +64,7 @@ const renderItems = (collection) => {
                             <p class="pairings">Best Pairings: ${item.best_pairings}</p>
 
 						</div>
+                        <img src="${item.posterImage}" class="list-item-image">
 					</li>
 				`;
 			

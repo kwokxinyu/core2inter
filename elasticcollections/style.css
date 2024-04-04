@@ -219,6 +219,10 @@ button {
 	list-style: none;
 }
 
+.list-item-content {
+  z-index: 10;
+}
+
 .list-item {
   position: relative;
   width: 100%;

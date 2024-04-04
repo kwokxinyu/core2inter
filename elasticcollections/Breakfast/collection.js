@@ -49,6 +49,10 @@ const renderItems = (collection) => {
 	// forEach loops through each item/object in the collection/array
 	collection.forEach(item => {
 		
+        // if (item.typeofmeal == 'Breakfast') {
+        //     item.style.opacity = 1; 
+        // }
+
 		// Option 2) Use “template literals” to create a bundnle of HTML all at once
 			// notice the tick marks `` wrapped around everything, with ${variable} used for dynamic content = written in HTML 
 			const itemDetails =
@@ -69,7 +73,11 @@ const renderItems = (collection) => {
 				`;
 			
 		// Step 4: Insert our new HTML (stored in itemDetails) into the page (before the end the collectionList element )
-		collectionList.insertAdjacentHTML('beforeend', itemDetails); 
+     if (item.typeofmeal == 'Breakfast') {
+        collectionList.insertAdjacentHTML('beforeend', itemDetails); 
+        }
+
+       
 
 		// You can build logic from your data, too
 		// if (!item.otherAttr) { // If this is `false`
@@ -77,53 +85,20 @@ const renderItems = (collection) => {
 		// }
 	})
 
+   
     // add events on click 
 
-    const listItems = document.querySelectorAll('.list-item');
+    const listItems = document.querySelectorAll('.list-item-content');
+
     listItems.forEach(item => {
       item.addEventListener('click', () => {
         item.classList.toggle('is-active');
       });
     });
-  
 
-const filterItems = document.querySelectorAll('.filteritem');
-
-filterItems.forEach(item => {
-
-    item.addEventListener('click', () => {
-        // what to do on click 
-       const previousActiveButton = document.querySelector('.filteritem.is-active');
-       if (previousActiveButton) previousActiveButton.classList.remove('is-active')
-
-       button.classList.add('is-active');
-
-        const buttonMeal = item.getAttribute("data-typeofmeal")
-        const buttonState = button.classList.contains('is-active')
-
-
-if (buttonState == false || buttonMeal == 'All') {
-
-    const hiddenListItems = document.querySelectorAll('.list-item.is-hidden');
-    hiddenListItems.forEach(item => {
-            item.classList.remove ('is-hidden');
-        }); 
-} else { 
-
-    listItems.forEach(item => {
-        if (item.dataset.meal != buttonMeal) {
-            item.classList.add('is-hidden')
-        } else {
-            item.classList.remove('is-hidden')
-        }
-    }
-        )
-}
     
-})
-
-})
 }
+
 
 
 // This is where we tie everything together

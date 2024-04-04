@@ -20,7 +20,7 @@ body {
     justify-content:center;
     align-items:center;
     width:100%;
-    height:100vh;
+    /* height:100vh; */
     background-image:url('https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w');
     background-position:center
   }
@@ -148,12 +148,9 @@ hr {
 
 
 .table {
-    position: absolute;
-    width: 70%;
-    margin-top: 50%;
-    margin-left: 17%;
-    /* top: 120vh;
-    left: 17%; */
+  position: absolute;
+  width: 100%;
+  height: auto;
 }
 
 .shadow {
@@ -230,18 +227,21 @@ button {
 /* COLLECTION POSITIONS */
 
 #Eggs {
-  position: absolute;
-  width: 30%;
-  margin-top: -20%;
-  margin-left: 23%;
+  position: relative;
+  top: 50%;
+  left: 10%;
+  width: 40vw;
 }
+
+
 
 #Sourdough {
   position: absolute;
-  width: 55%;
-  top: 95%;
-  left: 33%;
+  top: -10vw;
+  left: 29%;
   transform: rotate(-35deg);
+  width: 43vw;
+  
 }
 
 #list-item-content-Sourdough {
@@ -250,58 +250,87 @@ button {
 
 #Greek-Yoghurt {
   position: absolute;
-  width: 50%;
-  top: 100%;
-  left: 55%;
+  width: 40vw;
+  top: -8vw;
+  left: 54%;
+}
+
+#list-item-content-Greek-Yoghurt {
+  left: -5%;
+  inline-size: 230px;
+  overflow-wrap: break-word;
 }
 
 #Frozen-Berries {
   position: absolute;
-  width: 30%;
-  top: 151%;
-  left: 32%;
+  width: 30vw;
+  top: 6vw;
+  left: 70%;
   transform: rotate(35deg);
 }
 #list-item-content-Frozen-Berries {
+  top: -50%;
   transform: rotate(-35deg);
 }
 
-#Chocolate-Granola {
-  position: absolute;
-  width: 50%;
-  top: 130%;
-  left: 55%;
-}
-#list-item-content-Chocolate-Granola {
-  left: 10%;
-}
+
 
 #Pumpernickel-Bagel {
+  z-index: 5;
   position: absolute;
-  width: 50%;
-  top: 118%;
-  left: 70%;
+  width: 50vw;
+  top: 65%;
+  left: 69%;
 }
 
 #Coffee {
   position: absolute;
-  width: 30%;
-  top: 133%;
+  inline-size: 150px;
+  overflow-wrap: break-word;
+  min-width: 30vw;
+  width: 30vw;
+  top: 90%;
+  left: 27%;
+}
+#list-item-content-Coffee {
+  z-index: 3;
+  inline-size: 150px;
+  overflow-wrap: break-word;
+}
+
+#Chocolate-Granola {
+  z-index: 4;
+  position: absolute;
+  width: 50vw;
+  top: 98%;
   left: 45%;
+}
+#list-item-content-Chocolate-Granola {
+  left: -10%;
 }
 
 #Raspberry-Jam { 
   position: absolute;
-  width: 30%;
-  top: 130%;
-  left: 23%;
+  width: 20vw;
+  top: 120%;
+  left: 10%;
 
 }
 
+#list-item-content-Raspberry-Jam {
+  position: absolute;
+  inline-size: 200px;
+  overflow-wrap: break-word;
+  left: -10%;
+}
 
-.list-item.is-active .list-item-content  {
+.list-item.is-active {
+  opacity: 1;
+}
+
+/* .list-item-content  {
 	opacity: 1;
-}
+} */
 
 
 .filteritem.is-active {
@@ -334,6 +363,56 @@ button {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
+
+  .list-item-content {
+    font-size: 10px;
+    overflow-wrap: break-word;
+
+  }
+
+  #list-item-content-Eggs {
+    font-size: 10px;
+  }
+  #list-item-content-Sourdough {
+    position: fixed;
+    left: -30%;
+    top: -30%;
+    z-index: 1;
+    font-size: 10px;
+  }
+
+  #list-item-content-Greek-Yoghurt {
+    font-size: 10px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+
+  }
+
+  #list-item-content-Raspberry-Jam {
+    font-size: 10px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+  }
+
+  #list-item-content-Coffee {
+    font-size: 10px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+  }
+
+  #list-item-content-Chocolate-Granola {
+    font-size: 10px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+  }
+
+  #list-item-content-Pumpernickel-Bagel {
+    inline-size: 110px;
+  }
+
+  #list-item-content-Frozen-Berries {
+    inline-size: 110px;
+  }
 
   .smalltitle {
     position: absolute;
@@ -379,16 +458,13 @@ hr {
   height: 47vw;
 }
 
-.table {
-  position: absolute;
-  width: 70%;
-  margin-top: 50%;
-  margin-left: 17%;
-}
-
 .buttons {
   position: absolute;
   top: 40%;
+}
+
+.list-item {
+  left: 30vw;
 }
 
 }
