@@ -89,7 +89,7 @@
       "posterImage": "unpressed/Asset10.png"
     },
     {
-      "name": "Salmon Fillet",
+      "name": "Salmon-Fillet",
       "typeofmeal": "Lunch",
       "sweet_or_savory": "Savory",
       "colour_palette": ["Salmon Pink"],
@@ -144,7 +144,7 @@
       "posterImage": "unpressed/Asset24.png"
     },
     {
-      "name": "Swai Fillet",
+      "name": "Swai-Fillet",
       "typeofmeal": "Lunch",
       "sweet_or_savory": "Savory",
       "colour_palette": ["Light Pink"],
@@ -156,7 +156,7 @@
     },
     {
       "name": "Udon",
-      "typeofmeal": "Dinner",
+      "typeofmeal": "Lunch",
       "sweet_or_savory": "Savory",
       "colour_palette": ["Cream"],
       "texture": ["Chewy"],
@@ -188,8 +188,8 @@
       "posterImage": "unpressed/Asset18.png"
     },
     {
-      "name": "Tuna wrap",
-      "typeofmeal": "Dinner",
+      "name": "Tuna-wrap",
+      "typeofmeal": "Lunch",
       "sweet_or_savory": "Savory",
       "colour_palette": ["Pink", "Green"],
       "texture": ["Creamy", "Flaky"],

@@ -73,7 +73,7 @@ const renderItems = (collection) => {
 				`;
 			
 		// Step 4: Insert our new HTML (stored in itemDetails) into the page (before the end the collectionList element )
-     if (item.typeofmeal == 'Breakfast') {
+     if (item.typeofmeal == 'Lunch') {
         collectionList.insertAdjacentHTML('beforeend', itemDetails); 
         }
 
