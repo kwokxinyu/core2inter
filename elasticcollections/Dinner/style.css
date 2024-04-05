@@ -270,6 +270,7 @@ button {
 }
 
 #Tofu{
+  z-index: 3;
   position: absolute;
   width: 35vw;
   top: -4vw;
@@ -359,7 +360,9 @@ button {
 
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-
+.list-item-image {
+  width: 14vw;
+}
   .list-item-content {
     font-size: 12px;
     overflow-wrap: break-word;
@@ -367,19 +370,33 @@ button {
   }
 
   #list-item-content-Bak-choy{
-    left: -10%;
+    left: -20%;
+    top: 15vw;
     inline-size: 140px;
   }
-  #list-item-content-Chicken {
-    font-size: 12px;
-    inline-size: 150px;
-    overflow-wrap: break-word;
+
+  #Beef {
+    top: 20vw;
   }
 
-  #list-item-content-Udon {
-    left: -10%;
-    inline-size: 120px;
+  #list-item-content-Beef{
+    left: -20%;
+    top: 12vw;
+    inline-size: 140px;
   }
+
+  #list-item-content-Tomato-Soup{
+    left: -20%;
+    top: 15vw;
+    inline-size: 140px;
+  }
+
+  #list-item-content-Tofu{
+    left: -20%;
+    top: 12vw;
+    inline-size: 140px;
+  }
+  
 
   .smalltitle {
     position: absolute;
