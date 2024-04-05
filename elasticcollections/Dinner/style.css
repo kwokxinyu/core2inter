@@ -1,0 +1,442 @@
+body {
+    margin: 0;
+    background-color: #ecd0b9;
+   /* background-image: url(./img/background-style.png); */
+   background-repeat: repeat;
+   background-size: contain;
+
+}
+/* 
+#canvas {
+    margin: 0;
+    position: absolute;
+    width: 100%;
+    height: max-content;
+} */
+
+  .hero{
+    
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    /* height:100vh; */
+    background-image:url('https://i.picsum.photos/id/100/2500/1656.jpg?hmac=gWyN-7ZB32rkAjMhKXQgdHOIBRHyTSgzuOK6U0vXb1w');
+    background-position:center
+  }
+  
+  .hero:after{
+    content:"";
+    background-image:url("https://upload.wikimedia.org/wikipedia/commons/7/76/1k_Dissolve_Noise_Texture.png");
+    height: 300%;
+    width: 300%;
+    position: fixed;
+    opacity:0.1;
+     animation: animateGrain 8s steps(10) infinite;
+  }
+  
+  @keyframes animateGrain{
+    0%, 100% { transform:translate(0, 0) }
+    10%{
+      transform:translate(-5%,-10%)
+    }
+    20%{
+      transform:translate(-15%,-20%)
+    }
+    30%{
+      transform:translate(-5%,-10%)
+    }
+    40%{
+      transform:translate(-15%,-20%)
+    }
+    
+    50%{
+      transform:translate(-5%,-10%)
+    }
+    60%{
+      transform:translate(-15%,-20%)
+    }
+    70%{
+      transform:translate(-5%,-10%)
+    }
+    80%{
+      transform:translate(-15%,-20%)
+    }
+    90%{
+      transform:translate(-5%,-10%)
+    }
+    100%{
+      transform:translate(-15%,-20%)
+    }
+   
+  }
+
+  @keyframes wiggle {
+    0% { transform: translate(2px, 0); }
+    50% { transform: translate(-2px, 0); }
+    100% { transform: translate(2px, 0); }
+  }
+
+
+hr {
+    margin-bottom: 2%;
+    margin-left: 4%;
+    margin-right: 4%;
+    border: none; 
+    border-bottom: 3px solid #e45338;
+}
+
+.footer {
+    font-family: pixels;
+    font-size: 15px;
+    display: flex;
+    justify-content: end;
+    color: #685d18;
+    margin-right: 4%;
+    padding-top: 2%;
+}
+
+.sidetext {
+    font-family: pixels;
+    font-size: 15px;
+    display: flex; 
+    color: #685d18;
+    margin-left: 8%;
+    margin-right: 70%;
+    margin-bottom: -7%;
+}
+
+.thetable {
+    position: relative;
+}
+
+.smalltitle {
+    position: absolute;
+    font-family: pixels;
+    color: #e45338;
+    font-size: 15px;
+    left: 38%;
+    top: 14%;
+}
+.title {
+    font-family: pixels;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    color: #e45338;
+}
+
+.window {
+    position: relative;
+    margin-top: 4%;
+    opacity: 1 ;
+}
+#rect1 {
+    position: absolute;
+    left: 7%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 7%;
+    margin-right: 4%;
+    border:  3px solid #e45338; 
+    width: 76vw;
+    height: 50vw;
+}
+
+#rect2 {
+    position: absolute;
+    left: 17%;
+    margin-top: 3.4%;
+    border: 3px solid #e45338; 
+    opacity: 0.5;
+    width: 70vw;
+    height: 47vw;
+}
+
+
+.table {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: auto;
+}
+
+.shadow {
+    position: absolute;
+    width: 65%;
+    top: 170%;
+    left: 22.6%;
+}
+.inside {
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 48%;
+    font-family: pixels;
+    font-size: 2vw;
+    color: #685E27;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+
+.buttons {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-left: 5%; 
+  width: 10%; 
+  display: flex;
+  justify-content: flex-start; 
+  flex-direction: column;
+}
+
+#breakfast {
+  width: 30%;
+  margin-top: 40%;
+}
+
+#lunch {
+  width: 30%;
+  margin-top: 50%;
+}
+
+#dinner {
+  width: 30%;
+  margin-top: 60%;
+}
+
+#flowerpot {
+  position: absolute;
+  margin-top: 45%;
+  margin-left: 45%;
+  width: 15%;
+
+}
+
+
+.list-item {
+  position: relative;
+  width: fit-content;
+  /* border: 1px solid #685E27; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+.list-item-image {
+	object-fit: contain;
+	width: 30%;
+	height: auto;
+}
+
+/* COLLECTION POSITIONS */
+
+#Shrimp{
+  position: absolute;
+  top: 0;
+  left: 10%;
+  width: 40vw;
+}
+
+#Pickled-Radish {
+
+  position: absolute;
+  width: 38vw;
+  top: -4vw;
+  left: 33%;
+}
+
+#list-item-content-Pickled-Radish{
+  inline-size: 180px;
+  left: -5%;
+  overflow-wrap: break-word;
+}
+
+
+#list-item-content-Bean-Sprouts{
+  inline-size: 200px;
+    overflow-wrap: break-word;
+}
+
+#Bean-Sprouts {
+  position: absolute;
+  z-index: 2;
+  width: 25vw;
+  top: -3vw;
+  left: 52%;
+}
+
+#Tofu{
+  position: absolute;
+  width: 35vw;
+  top: -4vw;
+  left: 70%;
+}
+
+#Cucumbers {
+  z-index: 7;
+  position: absolute;
+  width: 35vw;
+  top: 10vw;
+  left: 75%;
+}
+
+#Bak-choy{
+  position: absolute;
+  z-index: 6;
+  width: 30vw;
+  top: 14vw;
+  left: 55%;
+}
+
+#list-item-content-Bak-choy{
+  inline-size: 200px;
+    overflow-wrap: break-word;
+}
+
+#Tomato-Soup {
+  z-index: 4;
+  position: absolute;
+  width: 30vw;
+  top: 11vw;
+  left: 15%;
+}
+
+#list-item-content-Tomato-Soup{
+  inline-size: 200px;
+    overflow-wrap: break-word;
+}
+
+#Beef {
+  z-index: 4;
+  position: absolute;
+  width: 40vw;
+  top: 14vw;
+  left: 34%;
+}
+
+#list-item-content-Beef{
+  inline-size: 200px;
+    overflow-wrap: break-word;
+}
+
+
+
+/* .list-item-content  {
+	opacity: 1;
+} */
+
+.list-item-content {
+  cursor: pointer;
+  color: #685d18;
+  background-color: #e45338;
+	position: absolute;
+  font-family: pixels;
+  font-size: 0.7vw;
+	padding: 2%;
+	height: fit-content;
+	display: flex;
+  flex-direction: column;
+  justify-content: center;
+	opacity: 0;
+	transition: opacity .2s;
+}
+
+.list-item.is-active .list-item-content {
+	opacity: 1;
+}
+
+.list-item.is-active {
+  z-index: 100;
+}
+
+.is-hidden {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .list-item-content {
+    font-size: 12px;
+    overflow-wrap: break-word;
+
+  }
+
+  #list-item-content-Bak-choy{
+    left: -10%;
+    inline-size: 140px;
+  }
+  #list-item-content-Chicken {
+    font-size: 12px;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+  }
+
+  #list-item-content-Udon {
+    left: -10%;
+    inline-size: 120px;
+  }
+
+  .smalltitle {
+    position: absolute;
+    font-size: 15px;
+    left: 15%;
+    top: 14%;
+}
+
+  .inside {
+    font-size: 10px;
+    position: absolute;
+   
+  }
+
+  .sidetext {
+    text-align: center;
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+hr {
+  border-bottom: 2px solid #e45338;
+}
+
+#rect1 {
+  position: absolute;
+  left: 7%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  margin-left: 7%;
+  margin-right: 4%;
+  border:  1.8px solid #e45338; 
+  width: 76vw;
+  height: 50vw;
+}
+
+#rect2 {
+  position: absolute;
+  left: 17%;
+  margin-top: 3.4%;
+  border: 1.8px solid #e45338; 
+  width: 70vw;
+  height: 47vw;
+}
+
+.buttons {
+  position: absolute;
+  top: 40%;
+}
+
+.list-item {
+  left: 30vw;
+}
+
+}
+
+@font-face {
+    font-family: pixels;
+    src: url(zpix.ttf);
+  }

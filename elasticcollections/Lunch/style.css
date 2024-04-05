@@ -329,8 +329,12 @@ button {
 	transition: opacity .2s;
 }
 
-.list-item-content.is-active {
+.list-item.is-active .list-item-content {
 	opacity: 1;
+}
+
+.list-item.is-active {
+  z-index: 100;
 }
 
 .is-hidden {

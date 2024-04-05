@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>xinyu's food table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+
+<div class="footer">
+    <p>designed by Xinyu Kwok</p>
+</div>
+
+<div class="sidetext">
+    <p>This is an archive of my table. I mostly spend my time eating on this table, so if you’re hungry feel free to scavenge through.</p>
+</div>
+
+<div class="thetable">
+    <div class="smalltitle">
+        <p>daily</p>
+    </div>
+    <div class="title">
+        <h1>thetable</h1>
+    </div>
+</div>
+
+<hr class="line">
+<hr class="line">
+
+<div class="window">
+    <div id="rect1"></div>
+    <div id="rect2"></div>
+</div>
+
+<!-- <img class="shadow" src="img/shadow.png" alt="shadow"> -->
+
+<!-- <img id="flowerpot" src="img/flowerpot.png" alt="flowerpot"> -->
+   
+
+<div class="inside">
+    <p>06:15 PM</p>
+</div>
+
+<div class="hero">
+    <div class="overlay"></div>
+  </div>
+
+<div class="buttons">
+    <a target="_blank" href="https://kwokxinyu.github.io/core2inter/elasticcollections/Breakfast/index.html" class="filteritem" data-typeofmeal="Breakfast"><img id="breakfast" src="buttons/Morning.png" alt="Breakfast Button" onmouseover="changeFirstImage(2,this)" onmouseout="changeFirstImage(1,this)"></a>
+    <a target="_blank" href="https://kwokxinyu.github.io/core2inter/elasticcollections/Lunch/index.html" class="filteritem" data-typeofmeal="Lunch"><img id="lunch" src="buttons/Day.png" alt="Lunch Button" onmouseover="changeSecondImage(2,this)" onmouseout="changeSecondImage(1,this)"></a>
+    <a target="_blank" href="https://kwokxinyu.github.io/core2inter/elasticcollections/index.html" class="filteritem" data-typeofmeal="Dinner"><img id="dinner" src="buttons/sunset-clicked.png" alt="Night Button" onmouseover="changeThirdImage(1,this)" onmouseout="changeThirdImage(2,this)"></a>
+</div>
+
+<ul id="collection" 
+    style="
+    position: relative;
+    padding: 0;
+    margin: 0; 
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 47%;
+">
+<img class="table" src="img/table.png" alt="The Table">
+</ul>
+
+      <script defer src="collection.js"></script>
+</body>
+</html>

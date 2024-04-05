@@ -88,7 +88,7 @@ const renderItems = (collection) => {
    
     // add events on click 
 
-    const listItems = document.querySelectorAll('.list-item-content');
+    const listItems = document.querySelectorAll('.list-item');
 
     listItems.forEach(item => {
       item.addEventListener('click', () => {

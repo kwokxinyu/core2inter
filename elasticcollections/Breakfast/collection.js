@@ -58,7 +58,7 @@ const renderItems = (collection) => {
 			const itemDetails =
 				`
 					<li  id="${item.name}" class="list-item" data-typeofmeal="${item.typeofmeal}">
-						<img src="${item.posterImage}" class="list-item-image">
+                    <img src="${item.posterImage}" class="list-item-image">
 						<div id="list-item-content-${item.name}" class="list-item-content">
                             <p class="name">${item.name}</p>
 							<p class="sweetorsavory">Sweet or Savory: <span>${item.sweet_or_savory}</span></p>
@@ -69,6 +69,7 @@ const renderItems = (collection) => {
                             <p class="pairings">Best Pairings: ${item.best_pairings}</p>
 
 						</div>
+                       
 					</li>
 				`;
 			
@@ -88,7 +89,7 @@ const renderItems = (collection) => {
    
     // add events on click 
 
-    const listItems = document.querySelectorAll('.list-item-content');
+    const listItems = document.querySelectorAll('.list-item');
 
     listItems.forEach(item => {
       item.addEventListener('click', () => {
